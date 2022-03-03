@@ -1,0 +1,36 @@
+#p-schedule .p-box{
+    border: 3px solid #F7F7F8;
+    padding: 15px 30px;
+}
+#p-schedule p , h5{
+   text-align: center;
+   font-family: 'Mohave', sans-serif;
+   font-weight: 600;
+}
+#p-schedule p {
+    font-size: 18px;
+ }
+ #p-schedule .p-para p {
+    line-height: 10px;
+ }
+
+#p-schedule .p-box , .p-para{
+    
+    margin: 0px 300px;
+}
+@media (max-width: 1024px) {
+    #p-schedule .p-box , .p-para{
+    
+        margin: 0px 0px;
+    }
+   
+  }
+  @media (max-width: 500px) {
+    #p-schedule .p-box{
+        
+        padding: 15px 10px;
+    }
+    #p-schedule .p-para p {
+        line-height: 20px;
+     }
+  }
